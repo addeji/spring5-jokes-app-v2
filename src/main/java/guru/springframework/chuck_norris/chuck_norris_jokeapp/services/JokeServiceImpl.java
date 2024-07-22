@@ -10,7 +10,7 @@ public class JokeServiceImpl implements JokeService {
     private final ChuckNorrisQuotes chuckNorrisQuotes;
     @Override
     public String getJoke() {
-        return null;
+        return chuckNorrisQuotes.getRandomQuote();
     }
 
     public JokeServiceImpl() {
